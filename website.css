@@ -1,34 +1,54 @@
-#chocolate{
-    background-color:lightseagreen;
+body {
+    background-color: lightgreen;
+}
+
+h2.solid {
+    border-style: solid;
+}
+
+#chocolate {
+    background-color: lightseagreen;
     width: 690px;
     height: 50px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 10px;
-    padding:auto;
-    margin:auto;
+    padding: auto;
+    margin: auto;
 }
 
-#deco{
+#deco {
     text-align: center;
-   font-size: 50px;
-padding:auto;
-margin:auto;
-border-radius: 70px;
-border-color:darkgreen; 
-border-left-color: greenyellow;
-border-right-color: greenyellow;
-    
+    font-size: 50px;
+    padding: auto;
+    margin: auto;
+    border-radius: 70px;
+    border-color: darkgreen; 
+    border-left-color: greenyellow;
+    border-right-color: greenyellow;
 }
 
-body{
-background-color: lightgreen;
+.navi {
+    font-display:relative;
+    font-size: 30px;
+    font-style: italic;
 }
-.navi{
-font-display:relative;
-font-size: 30px;
-font-style: italic;
-}
-.photu{
+
+.photu {
     margin:auto;
     padding:auto;
+}
+
+.gallery {
+    margin: 5px;
+    border: solid rgb(245, 9, 9);
+    float: left;
+    width: 340px;
+}
+.gallery:hover {
+    border: 35px solid rgb(255, 0, 0);
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
 }
