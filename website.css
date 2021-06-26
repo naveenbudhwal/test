@@ -7,13 +7,15 @@ h2.solid {
 }
 
 #chocolate {
-    background-color: lightseagreen;
+    background-color: darkgreen;
     width: 690px;
     height: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkkhaki;
+    font-style:oblique;
     font-size: 10px;
     padding: auto;
     margin: auto;
+    align-content:center;
 }
 
 #deco {
@@ -27,9 +29,21 @@ h2.solid {
     border-right-color: greenyellow;
 }
 
-.navi {
+.navbar{
     font-size: 30px;
-    font-style: italic;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.nav-item{
+    text-decoration: none;
+    color: black;
+ margin: 30px 30px ;
+ transition: 0.2s ease-in-out;
+    
+}
+.nav-item:hover{
+ text-decoration: underline;
+ font-size: 35px;
 }
 
 
@@ -40,13 +54,14 @@ h2.solid {
 
 .gallery {
     margin: 5px;
-    border: solid rgb(245, 9, 9);
+    border: solid darkgreen;
     float: left;
     width: 340px;
+    transition: 0.2s ease-in-out;
+    margin: 5px 12px;
 }
 .gallery:hover {
-    border: 35px solid rgb(255, 0, 0);
-    transition: 0.5s ease-in-out;
+    border: 20px solid darkgreen;
 }
 
 .desc {
