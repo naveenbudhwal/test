@@ -9,14 +9,14 @@ body {
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .navbar {
 	display: flex;
 	justify-content: space-between;
 	margin: 20px 30px;
-	/* background: #10DB4D; */
+	 background: #00C17B; 
 }
 
 .nav-links {
@@ -26,13 +26,33 @@ a {
 
 .nav-item {
 	margin: 0 20px;
-	color: #2F4858;
+	color: #000000;
 	font-size: 20px;
 	font-weight: 500;
-	transition: all 0.2s ease-in-out;
+	transition: all 0.4s ease-in-out;
 }
 
 .nav-item:hover {
-	color: #10DB4D;
-	border-bottom: 1px solid #10DB4D;
+	color: #DAF9D9;
+	border-bottom: 1px solid #DAF9D9;
+}
+.about_background{
+	width: 450px;
+	height: 500px;
+  margin: 0px 500px;
+
+}
+.about_info{
+	color:#00A493;
+	font-size: 20px;
+	margin-top: 10px;
+	text-align: center;
+}
+.Products{
+	text-align: center;
+	color: #769A75;
+	border: 10px solid 	#A1DC43;
+	border-radius: 20px;
+	margin:0px 550px;
+
 }
