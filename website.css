@@ -16,7 +16,7 @@ a {
 	display: flex;
 	justify-content: space-between;
 	margin: 20px 30px;
-	 background: #00C17B; 
+	background: #00C17B; 
 }
 
 .nav-links {
@@ -36,23 +36,24 @@ a {
 	color: #DAF9D9;
 	border-bottom: 1px solid #DAF9D9;
 }
-.about_background{
+
+.about_background {
 	width: 450px;
 	height: 500px;
   margin: 0px 500px;
-
 }
-.about_info{
-	color:#00A493;
+
+.about_info {
+	color: #00A493;
 	font-size: 20px;
 	margin-top: 10px;
 	text-align: center;
 }
-.Products{
+
+.products {
 	text-align: center;
 	color: #769A75;
-	border: 10px solid 	#A1DC43;
+	border: 10px solid #A1DC43;
 	border-radius: 20px;
-	margin:0px 550px;
-
+	margin: 0px 550px;
 }
